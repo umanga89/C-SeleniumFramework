@@ -1,0 +1,120 @@
+﻿2020-06-28T16:29:03.2635129+08:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-06-28T16:29:03.2635129+08:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.1.48 in Framework clr40 in x86 mode execution started
+2020-06-28T16:29:03.2635129+08:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\packages\SpecRun.Runner.3.1.48\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-06-28T16:29:03.4075552+08:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\SeleniumTestAutomationFramework\bin\Debug\SeleniumTestAutomationFramework.dll
+2020-06-28T16:29:03.4075552+08:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\TestResults" (default)
+2020-06-28T16:29:03.4075552+08:00;VSTestExecutionThread;Info;Profile: SeleniumTestAutomationFramework
+2020-06-28T16:29:03.4385159+08:00;VSTestExecutionThread;Info;Log file path: C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\TestResults\SeleniumTestAutomationFramework_SeleniumTestAutomationFramework_2020-06-28T162903.log
+2020-06-28T16:29:03.4504305+08:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2020-06-28T16:29:03.4574120+08:00;Thread#13;Info;Checking license
+2020-06-28T16:29:03.4733696+08:00;Thread#13;Info;Evaluation mode: test execution starts in 14 seconds... (this delay is removed in the registered version)
+2020-06-28T16:29:17.4741555+08:00;Thread#13;Info;Evaluation delay finished.
+2020-06-28T16:29:17.4921073+08:00;Thread#13;Info;License check completed
+2020-06-28T16:29:17.4921073+08:00;Thread#13;Info;starting test run
+2020-06-28T16:29:17.5233431+08:00;Thread#13;Info;Discovering target: Default
+2020-06-28T16:29:17.5233431+08:00;Thread#13;Info;Discovering tests from assembly: C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\SeleniumTestAutomationFramework\bin\Debug\SeleniumTestAutomationFramework.dll
+2020-06-28T16:29:18.0776238+08:00;Thread#13;Info;Discovered tests from assembly: C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\SeleniumTestAutomationFramework\bin\Debug\SeleniumTestAutomationFramework.dll
+2020-06-28T16:29:18.0794940+08:00:Test Suite Dump
+2020-06-28T16:29:18.0815180+08:00:#0: SeleniumTestAutomationFramework/SeleniumTestAutomationFramework - 
+2020-06-28T16:29:18.0815180+08:00:#1: Default - 
+2020-06-28T16:29:18.0815180+08:00:#2: SeleniumTestAutomationFramework - 
+2020-06-28T16:29:18.0815180+08:00:#3: GoogleSearch - 
+2020-06-28T16:29:18.1264074+08:00:#4: See search results for 'Google' - TestAssembly:SeleniumTestAutomationFramework/Feature:GoogleSearch/Scenario:See+search+results+for+%27Google%27
+2020-06-28T16:29:18.1264074+08:00:End: Test Suite Dump
+2020-06-28T16:29:18.1532946+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-28T16:29:18.1562863+08:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-06-28T16:29:18.1562863+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-06-28T16:29:18.1622704+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-28T16:29:18.1622704+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-06-28T16:29:18.1622704+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-06-28T16:29:18.1622704+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-06-28T16:29:18.1632675+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-06-28T16:29:18.1652624+08:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-28T16:29:18.1682542+08:00:Thread #0: creating new test thread executor for SeleniumTestAutomationFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-06-28T16:29:18.1702489+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-28T16:29:18.1732410+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-28T16:29:18.1752356+08:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-06-28T16:29:18.4435220+08:00:Thread#0:T:-> Loading plugin C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\SeleniumTestAutomationFramework\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-06-28T16:29:18.4564892+08:00:Thread#0:T:-> Using default config
+2020-06-28T16:29:19.2295110+08:00:test thread #0 error: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\SeleniumTestAutomationFramework\TestReport_Backup\TestReport20200628162919146.zip'.
+
+Server stack trace: 
+   at SeleniumTestAutomationFramework.Utilities.Hooks.BeforeTestRun() in C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\SeleniumTestAutomationFramework\Utilities\Hooks.cs:line 42
+   at lambda_method(Closure , IContextManager )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 69
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.InvokeHook(IBindingInvoker invoker, IHookBinding hookBinding, HookType hookType) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 351
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.InvokeHook(IBindingInvoker invoker, IHookBinding hookBinding, HookType hookType)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.FireEvents(HookType hookType) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 340
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnTestRunStart() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 126
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnTestRunStart()
+   at TechTalk.SpecFlow.TestRunner.OnTestRunStart() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 29
+   at SeleniumTestAutomationFramework_SpecFlowPlusRunnerAssemblyHooks.AssemblyInitialize() in C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\SeleniumTestAutomationFramework\obj\Debug\SpecFlow.Plus.Runner.AssemblyHooks.cs:line 8
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunAssemblyInitializeExecutors(ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(ITestAssemblyExecutorState executorState, ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at TechTalk.SpecRun.Framework.ITestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.RunNonEmptyTestSuite(CancellationToken cancellationToken, TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.Run(ITestExecutionManager executionManagerForRun, CancellationToken cancellationToken)
+   at TechTalk.SpecRun.Framework.AsyncTestThreadRunner.RunSync(TestExecutionManager executionManager, CancellationToken cancellationToken)
+2020-06-28T16:29:19.2304151+08:00:test thread error: TechTalk.SpecRun.Framework.SpecRunException: At least one test thread aborted. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\SeleniumTestAutomationFramework\TestReport_Backup\TestReport20200628162919146.zip'.
+
+Server stack trace: 
+   at SeleniumTestAutomationFramework.Utilities.Hooks.BeforeTestRun() in C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\SeleniumTestAutomationFramework\Utilities\Hooks.cs:line 42
+   at lambda_method(Closure , IContextManager )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 69
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.InvokeHook(IBindingInvoker invoker, IHookBinding hookBinding, HookType hookType) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 351
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.InvokeHook(IBindingInvoker invoker, IHookBinding hookBinding, HookType hookType)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.FireEvents(HookType hookType) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 340
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnTestRunStart() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 126
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnTestRunStart()
+   at TechTalk.SpecFlow.TestRunner.OnTestRunStart() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 29
+   at SeleniumTestAutomationFramework_SpecFlowPlusRunnerAssemblyHooks.AssemblyInitialize() in C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\SeleniumTestAutomationFramework\obj\Debug\SpecFlow.Plus.Runner.AssemblyHooks.cs:line 8
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunAssemblyInitializeExecutors(ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(ITestAssemblyExecutorState executorState, ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at TechTalk.SpecRun.Framework.ITestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.RunNonEmptyTestSuite(CancellationToken cancellationToken, TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.Run(ITestExecutionManager executionManagerForRun, CancellationToken cancellationToken)
+   at TechTalk.SpecRun.Framework.AsyncTestThreadRunner.RunSync(TestExecutionManager executionManager, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+2020-06-28T16:29:19.2304151+08:00:Trying to cancel thread
+2020-06-28T16:29:19.2304151+08:00:Thread cancelled
+2020-06-28T16:29:19.2404263+08:00:Thread#-1: Test #4/0 is started on thread #-1
+2020-06-28T16:29:19.2423834+08:00:Thread#-1: Test #4/0 is finished on thread #-1 as Skipped within 0.0009551 seconds
+2020-06-28T16:29:19.2446491+08:00:Thread#-1:Scheduler: get next test for thread -1
+2020-06-28T16:29:19.2446491+08:00:Thread#:Scheduler: at the end of normal test queue
+2020-06-28T16:29:19.2446491+08:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-06-28T16:29:19.2503616+08:00;Thread#13;Info;test run finished
+2020-06-28T16:29:19.2503616+08:00;Thread#13;Info;publishing test results
+2020-06-28T16:29:19.2573436+08:00;Thread#13;Info;test results published
+2020-06-28T16:29:19.2573436+08:00;Thread#13;Info;generating reports
+2020-06-28T16:29:19.4269798+08:00;Thread#13;Info;Starting external report generation process
+2020-06-28T16:29:21.5678895+08:00;Thread#13;Info;Successfully generated reports.
+2020-06-28T16:29:21.5697436+08:00;Thread#13;Info;Successfully generated reports
+2020-06-28T16:29:21.5778496+08:00:Total: 1
+2020-06-28T16:29:21.5807541+08:00:Succeeded: 0
+2020-06-28T16:29:21.5810156+08:00:Ignored: 0
+2020-06-28T16:29:21.5817490+08:00:Pending: 0
+2020-06-28T16:29:21.5817490+08:00:Skipped: 1
+2020-06-28T16:29:21.5817490+08:00:Failed: 0
+2020-06-28T16:29:21.5847422+08:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-06-28T16:29:21.5847422+08:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\TestResults\SeleniumTestAutomationFramework_SeleniumTestAutomationFramework_2020-06-28T162903.html'
+========== End of log file ==========

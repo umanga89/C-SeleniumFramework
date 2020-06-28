@@ -1,0 +1,38 @@
+﻿2020-06-28T16:30:21.2991358+08:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-06-28T16:30:21.3001317+08:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.1.48 in Framework clr40 in x86 mode execution started
+2020-06-28T16:30:21.3001317+08:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\packages\SpecRun.Runner.3.1.48\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-06-28T16:30:21.4736866+08:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\SeleniumTestAutomationFramework\bin\Debug\SeleniumTestAutomationFramework.dll
+2020-06-28T16:30:21.4748449+08:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\TestResults" (default)
+2020-06-28T16:30:21.4748449+08:00;VSTestExecutionThread;Info;Profile: SeleniumTestAutomationFramework
+2020-06-28T16:30:21.5225370+08:00;VSTestExecutionThread;Info;Log file path: C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\TestResults\SeleniumTestAutomationFramework_SeleniumTestAutomationFramework_2020-06-28T163021.log
+2020-06-28T16:30:21.5384940+08:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2020-06-28T16:30:21.5524585+08:00;Thread#14;Info;Checking license
+2020-06-28T16:30:21.5704091+08:00;Thread#14;Info;Evaluation mode: test execution starts in 8 seconds... (this delay is removed in the registered version)
+2020-06-28T16:30:29.5729111+08:00;Thread#14;Info;Evaluation delay finished.
+2020-06-28T16:30:29.5998382+08:00;Thread#14;Info;License check completed
+2020-06-28T16:30:29.6008358+08:00;Thread#14;Info;starting test run
+2020-06-28T16:30:29.6292841+08:00;Thread#14;Info;Discovering target: Default
+2020-06-28T16:30:29.6297579+08:00;Thread#14;Info;Discovering tests from assembly: C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\SeleniumTestAutomationFramework\bin\Debug\SeleniumTestAutomationFramework.dll
+2020-06-28T16:30:30.2371316+08:00;Thread#14;Info;Discovered tests from assembly: C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\SeleniumTestAutomationFramework\bin\Debug\SeleniumTestAutomationFramework.dll
+2020-06-28T16:30:30.2391275+08:00:Test Suite Dump
+2020-06-28T16:30:30.2411219+08:00:#0: SeleniumTestAutomationFramework/SeleniumTestAutomationFramework - 
+2020-06-28T16:30:30.2411219+08:00:#1: Default - 
+2020-06-28T16:30:30.2411219+08:00:#2: SeleniumTestAutomationFramework - 
+2020-06-28T16:30:30.2411219+08:00:#3: GoogleSearch - 
+2020-06-28T16:30:30.2899923+08:00:#4: See search results for 'Google' - TestAssembly:SeleniumTestAutomationFramework/Feature:GoogleSearch/Scenario:See+search+results+for+%27Google%27
+2020-06-28T16:30:30.2899923+08:00:End: Test Suite Dump
+2020-06-28T16:30:30.3258962+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-28T16:30:30.3278909+08:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-06-28T16:30:30.3278909+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-06-28T16:30:30.3331704+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-28T16:30:30.3331704+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-06-28T16:30:30.3331704+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-06-28T16:30:30.3331704+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-06-28T16:30:30.3348732+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-06-28T16:30:30.3358701+08:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-28T16:30:30.3389069+08:00:Thread #0: creating new test thread executor for SeleniumTestAutomationFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-06-28T16:30:30.3418942+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-28T16:30:30.3548201+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-28T16:30:30.3558161+08:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-06-28T16:30:30.6913506+08:00:Thread#0:T:-> Loading plugin C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\SeleniumTestAutomationFramework\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-06-28T16:30:30.7052608+08:00:Thread#0:T:-> Using default config

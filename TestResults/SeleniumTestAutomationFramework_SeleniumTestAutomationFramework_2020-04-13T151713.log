@@ -1,0 +1,54 @@
+﻿2020-04-13T15:17:13.1490525+08:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-04-13T15:17:13.1490525+08:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.1.48 in Framework clr40 in x86 mode execution started
+2020-04-13T15:17:13.1490525+08:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\packages\SpecRun.Runner.3.1.48\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-04-13T15:17:13.3584920+08:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\SeleniumTestAutomationFramework\bin\Debug\SeleniumTestAutomationFramework.dll
+2020-04-13T15:17:13.3584920+08:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\TestResults" (default)
+2020-04-13T15:17:13.3584920+08:00;VSTestExecutionThread;Info;Profile: SeleniumTestAutomationFramework
+2020-04-13T15:17:13.3896451+08:00;VSTestExecutionThread;Info;Log file path: C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\TestResults\SeleniumTestAutomationFramework_SeleniumTestAutomationFramework_2020-04-13T151713.log
+2020-04-13T15:17:13.4053668+08:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2020-04-13T15:17:13.4163383+08:00;Thread#13;Info;Checking license
+2020-04-13T15:17:13.4482540+08:00;Thread#13;Info;Evaluation mode: test execution starts in 5 seconds... (this delay is removed in the registered version)
+2020-04-13T15:17:18.4494526+08:00;Thread#13;Info;Evaluation delay finished.
+2020-04-13T15:17:18.4684603+08:00;Thread#13;Info;License check completed
+2020-04-13T15:17:18.4694568+08:00;Thread#13;Info;starting test run
+2020-04-13T15:17:18.4953394+08:00;Thread#13;Info;Discovering target: Default
+2020-04-13T15:17:18.4953394+08:00;Thread#13;Info;Discovering tests from assembly: C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\SeleniumTestAutomationFramework\bin\Debug\SeleniumTestAutomationFramework.dll
+2020-04-13T15:17:19.1206649+08:00;Thread#13;Info;Discovered tests from assembly: C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\SeleniumTestAutomationFramework\bin\Debug\SeleniumTestAutomationFramework.dll
+2020-04-13T15:17:19.1228435+08:00:Test Suite Dump
+2020-04-13T15:17:19.1242295+08:00:#0: SeleniumTestAutomationFramework/SeleniumTestAutomationFramework - 
+2020-04-13T15:17:19.1246546+08:00:#1: Default - 
+2020-04-13T15:17:19.1246546+08:00:#2: SeleniumTestAutomationFramework - 
+2020-04-13T15:17:19.1246546+08:00:#3: GoogleSearch - 
+2020-04-13T15:17:19.1924723+08:00:#4: See search results for 'Google' - TestAssembly:SeleniumTestAutomationFramework/Feature:GoogleSearch/Scenario:See+search+results+for+%27Google%27
+2020-04-13T15:17:19.1924723+08:00:End: Test Suite Dump
+2020-04-13T15:17:19.2363571+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-04-13T15:17:19.2408468+08:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-04-13T15:17:19.2408468+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-04-13T15:17:19.2483251+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-04-13T15:17:19.2483251+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-04-13T15:17:19.2483251+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-04-13T15:17:19.2483251+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-04-13T15:17:19.2523125+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-04-13T15:17:19.2543081+08:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-04-13T15:17:19.2582967+08:00:Thread #0: creating new test thread executor for SeleniumTestAutomationFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-04-13T15:17:19.2612889+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-04-13T15:17:19.2632838+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-04-13T15:17:19.2662780+08:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-04-13T15:17:19.5565001+08:00:Thread#0:T:-> Loading plugin C:\Users\laksh\source\repos\SeleniumTestAutomationFramework\SeleniumTestAutomationFramework\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-04-13T15:17:19.5684683+08:00:Thread#0:T:-> Using default config
+2020-04-13T15:17:20.7951890+08:00:Thread#0: Test #4/0 is started on thread #0
+2020-04-13T15:17:20.8810128+08:00:Thread#0:B:Given I've launched chrome browser
+2020-04-13T15:17:30.0950767+08:00:Thread#0:T:done: GoogleHomeSteps.GivenIVeLauchedChromeBrowser("chrome") (9.1s)
+2020-04-13T15:17:30.2048971+08:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2020-04-13T15:17:30.2078285+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-04-13T15:17:30.2078285+08:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2020-04-13T15:17:30.2078285+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-04-13T15:17:30.2078285+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-04-13T15:17:30.2078285+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-04-13T15:17:30.2078285+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-04-13T15:17:30.2078285+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-04-13T15:17:30.2078285+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-04-13T15:17:30.2078285+08:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-04-13T15:17:30.2317599+08:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 9.4355736 seconds
+2020-04-13T15:17:30.2347520+08:00:Thread#0: Test #4/1 is started on thread #0
+2020-04-13T15:17:30.2368108+08:00:Thread#0:B:Given I've launched chrome browser

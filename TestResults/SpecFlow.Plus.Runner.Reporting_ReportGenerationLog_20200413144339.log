@@ -1,0 +1,10 @@
+﻿2020-04-13T14:43:40.0408446+08:00;Thread#1;Info;Reading test run result from Json file "C:\Users\laksh\AppData\Local\Temp\tmp6F41.tmp".
+2020-04-13T14:43:40.0542876+08:00;Thread#1;Info;Successfully read test run result from Json file "C:\Users\laksh\AppData\Local\Temp\tmp6F41.tmp"
+2020-04-13T14:43:40.0542876+08:00;Thread#1;Info;Deserializing test run result
+2020-04-13T14:43:40.9878998+08:00;Thread#1;Info;Successfully deserialized test run result
+2020-04-13T14:43:40.9878998+08:00;Thread#1;Info;Loading test run result
+2020-04-13T14:43:41.0190667+08:00;Thread#1;Info;Successfully loaded test run result
+2020-04-13T14:43:41.0379710+08:00;Thread#1;Info;creating 1 report(s)
+2020-04-13T14:43:41.0390228+08:00;Thread#1;Info;generate Report ReportTemplate.cshtml
+2020-04-13T14:43:42.1884159+08:00;Thread#1;Info;Finished generating reports.
+========== End of log file ==========
